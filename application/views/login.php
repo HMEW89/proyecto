@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<link rel="icon" href="<?php echo base_url();?>img/image.png" type="image/ico" />
   <title>San Martin de Porres</title>
 
 
