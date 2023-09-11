@@ -46,12 +46,6 @@
             break;
     }
 
-    if($mensaje!=''){
-          echo'<script type="text/javascript">
-        alert("'.$mensaje.'")
-        </script>';
-    }
-
 ?>
 
   <!-- /.login-logo -->
