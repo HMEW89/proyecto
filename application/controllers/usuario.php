@@ -62,7 +62,7 @@ class Usuario extends CI_Controller {
                 
 			}
 			else{
-				redirect('usuario/indexlte','refresh');
+				redirect('servicio/index','refresh');
 			}			 
 		}
 		else
