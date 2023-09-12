@@ -226,7 +226,7 @@
                                         <div class="field item form-group">
                                             <label class="col-form-label col-md-3 col-sm-3  label-align">Primer Apellido<span class="required">*</span></label>
                                             <div class="col-md-6 col-sm-6">
-                                                <input class="form-control" name="primerApellido" autocomplete="off" required="required" type="text" /></div>
+                                                <input class="form-control" name="primerApellido" autocomplete="off"  required="required" type="text" /></div>
                                         </div>
                                         <div class="field item form-group">
                                             <label class="col-form-label col-md-3 col-sm-3  label-align">Segundo Apellido:<span></span></label>

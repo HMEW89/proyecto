@@ -27,28 +27,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
 
-<?php
-    switch($msg)
-    {
-        case '1':
-            $mensaje="Error de ingreso";
-            $clase="warning";
-            break;
-        case '2':
-            $mensaje="Acceso no válido";
-            $clase="danger";
-            break;
-        case '3':
-            $mensaje="Gracias por usar el sistema";
-            $clase="primary";
-            break;
-        default:
-            $mensaje="Ingrese su usuario y contraseña para iniciar sesión";
-            $clase="success";
-            break;
-    }
 
-?>
 
   <!-- /.login-logo -->
   <div class="card">
@@ -65,7 +44,7 @@ echo form_open_multipart('usuario/validarusuario', array('id'=>'form1', 'class'=
 ?>
         
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Login" name="nombreUsuario" required autocomplete="off">
+          <input type="text" class="form-control" placeholder="Email" name="email" required autocomplete="off">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -82,22 +61,9 @@ echo form_open_multipart('usuario/validarusuario', array('id'=>'form1', 'class'=
         </div>
         <div class="row">
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
           </div>
         </div><br>
-        <div class="row">
-          <div class="col-6">
-             <div class="icheck-primary">
-              <input type="checkbox" id="remember">
-              <label for="remember">
-                <h6>Remember Me</h6>
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-           
-          </div>
-        </div>
 <?php
 echo form_close();
 ?>
